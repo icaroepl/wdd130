@@ -29,13 +29,14 @@ main {
     max-width: 840px;
 }
 
-main img {
+body main img {
     width: 200px;
     min-height: auto;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
     background-color: #eee;
     color: #333;
+    box-shadow: 0 0 30px gray;
 }
 
 aside {
