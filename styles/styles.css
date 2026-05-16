@@ -29,6 +29,15 @@ main {
     max-width: 840px;
 }
 
+main img {
+    width: 200px;
+    min-height: auto;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+}
+
 aside {
     width: 20rem;
     margin: 1rem;
