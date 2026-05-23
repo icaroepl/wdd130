@@ -44,7 +44,6 @@ nav, p, section, article {
     display: block;
     width: 100%;
     height: auto;
-    float: right;
 }
 
 .hero h1 {
@@ -60,10 +59,11 @@ nav, p, section, article {
 
 .hero article{
     float: left;
+    position: absolute;
 }
 
 .hero article img {
-    float: left;
+    float: right;
   width: 125px;
 }
 
