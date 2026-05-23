@@ -2,8 +2,8 @@
   // Auto Save when focus changes (allows formatOnSave to work)
   "files.autoSave": "onFocusChange",
   // Editor settings
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false,
   "editor.defaultFormatter": "vscode.html-language-features",
   "editor.minimap.enabled": false,
   "editor.linkedEditing": true,
