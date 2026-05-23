@@ -2,6 +2,7 @@
 :root {
   --primary-color: #055a05; /* forest green */
   --accent1-color: #264653; /* dark slate blue */
+   --accent2-color: #333c4b; /* dark slate blue */
   --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
 }
@@ -62,9 +63,14 @@ h1 {
   width: 125px;
 }
 
-.hero article{
-    float: left;
+.hero article {
     position: absolute;
+    bottom: 5px;
+    left: 20px;
+    right: 20px;
+    background-color: var(--accent2-color);
+    color: white;
+    padding: 16px;
 }
 
 
