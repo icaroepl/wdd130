@@ -1,36 +1,64 @@
 
 :root {
-  --primary-color: #055a05; /* forest green */
-  --accent1-color: #264653; /* dark slate blue */
-   --accent2-color: #333c4b; /* dark slate blue */
-  --heading-font: "Times New Roman", "Georgia", serif;
-  --body-font: Arial, Helvetica, sans-serif;
+    --primary-color: #055a05; /* forest green */
+    --accent1-color: #264653; /* dark slate blue */
+    --accent2-color: #333c4b; /* dark slate blue */
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: var(--body-font);
-  color: var(--accent1-color);
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header{
+    display:grid;
+    /*fr = 100% remaining space */
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    background-color: #264653;
+}
+
+header nav ul{
+    display: flex;
+    justify-content:space-evenly;
+    /* remove the list dots*/
+    list-style: none; 
+}
+
+nav a {
+  /* remove the list lines*/
+    text-decoration: none;
+    color: white;
 }
 
 header, main, footer {
-  width: 840px;
-  margin: 0 auto;
+    width: 840px;
+    margin: 0 auto;
 }
 
 h1, h2 {
-  font-family: var(--heading-font);
-  color: var(--primary-color);
+    font-family: var(--heading-font);
+    color: var(--primary-color);
 }
 
-nav, p, section, article {
-  margin: 16px;
-  padding: 8px;
+p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.history{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    align-items: center;
+    text-align: center;
 }
 
 .socialmedia a {
@@ -48,19 +76,19 @@ nav, p, section, article {
 }
 
 h1 {
-  position: absolute;
-  top: 20px;
-  width: 100%;
-  padding: 16px;
-  text-align: center;
-  opacity: 0.7;
-  background-color: var(--accent1-color);
-  color: #fff; /* white text – make sure there is enough contrast with the background-color */
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff; /* white text – make sure there is enough contrast with the background-color */
 }
 
 .hero article img {
-  float: right;
-  width: 125px;
+    float: right;
+    width: 125px;
 }
 
 .hero article {
@@ -73,5 +101,35 @@ h1 {
     padding: 16px;
 }
 
+.adventures {
+    text-align: center;
+}
 
+.adventures div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: auto;
+    gap: 3rem;
+    margin-top: 5%;
+}
+
+.adventures img{
+    width: 100%;
+    height: auto;
+}
+
+footer{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  color:white;
+  text-align: center;
+  align-items: center;
+  background-color: #264653; 
+}
+
+footer nav{
+  display: flex;
+  align-items: flex-end;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
