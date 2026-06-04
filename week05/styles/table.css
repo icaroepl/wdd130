@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(187, 186, 186);
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+th, td{
+    border-collapse: collapse;
+    border: 1px solid rgb(187, 186, 186);
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+table thead{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+table tfoot{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-weight: 1000;
+}
+
+.gray{
+    background-color: rgb(240, 241, 243);
+}
