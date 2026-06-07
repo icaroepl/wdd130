@@ -75,7 +75,7 @@ article {
     height: auto;
 }
 
-h1 {
+.grid h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -201,4 +201,4 @@ fieldset {
 }
 
 
-/* https://icaroepl.github.io/wdd130/wwr/contact.html */
+/* https://icaroepl.github.io/wdd130/wwr/about.html */
