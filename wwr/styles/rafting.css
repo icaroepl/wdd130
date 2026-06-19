@@ -219,7 +219,7 @@ fieldset {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: auto;
-    margin: 50px;
+    margin: 10px;
     gap: 100px;
     text-align: center;
 }
@@ -372,7 +372,10 @@ fieldset {
     margin: 15px;
 }
 
-
+body h2{
+    text-align: center;
+    margin: 10px;
+}
 
 /* https://icaroepl.github.io/wdd130/wwr/about.html */
 /* https://icaroepl.github.io/wdd130/wwr/contact.html */
