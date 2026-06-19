@@ -316,7 +316,7 @@ fieldset {
 
 .trip{
     display: grid;
-    grid-template-rows:  1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     align-items: center;
     text-align: center;
     width: auto;
@@ -339,7 +339,6 @@ fieldset {
 
 .trip p{
     margin: 10px auto;
-    width:auto;
     background-color: #264653;
     color: white;
     padding: 10px;
@@ -362,6 +361,7 @@ fieldset {
     padding-left: 80px;
     padding-right: 80px;
     text-align: center;
+
     background-color: #264653;
 }
 
