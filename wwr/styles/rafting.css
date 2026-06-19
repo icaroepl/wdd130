@@ -356,22 +356,22 @@ fieldset {
     color: #fff; /* white text – make sure there is enough contrast with the background-color */
 }
 
-.booking button{
+.booking a{
     padding: 15px;
     padding-left: 80px;
     padding-right: 80px;
     text-align: center;
-
-    background-color: #264653;
-}
-
-.booking button a{
-    color: white;
+     color: white;
     text-decoration: none;
+    background-color: #264653;
+    margin-bottom: 15px;
 }
+
+
 .booking, h1{
     padding: 15px;
     text-align: center;
+    margin: 15px;
 }
 
 /* https://icaroepl.github.io/wdd130/wwr/about.html */
